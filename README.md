@@ -2,6 +2,8 @@
 
 Using the python package [xlrd](https://github.com/python-excel/xlrd) and [xlwt](https://github.com/python-excel/xlwt) to unmerge the excel file, and then auto fill the merged cells by the first cell in the merged cells.
 
+For general purpose, unMergeExcelCell.py won't keep the style and format from the origin excel file.
+
 ## Usage
 ``` 
     Un-merge excel cell and auto fill with the first cell value in the merged cells
